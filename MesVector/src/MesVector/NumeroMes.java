@@ -22,5 +22,5 @@ public class NumeroMes {
 			for(int i = numes; i<numes+1; i++){
 				JOptionPane.showMessageDialog(null, "MES: "+arr[i-1]);
 			}
-		}
+	}
 }
