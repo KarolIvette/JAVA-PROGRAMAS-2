@@ -9,6 +9,9 @@ public class main {
 		Manzana item3 = new Manzana("002",3);
 		Manzana item4 = new Manzana("003",2,"verde");
 		
+		Manzana[] items = new Manzana[5];
+		items[0] = new Manzana("004", 2, "Azul");
+		
 		/*item1.color = "verde";
 		item2.color = "roja";
 		
@@ -21,7 +24,9 @@ public class main {
 		item1.show_inf();
 		item2.show_inf();
 		item3.show_inf();
-		item3.show_inf();
+		item4.show_inf();
+		
+		items[0].show_inf();
 	}
 
 }
