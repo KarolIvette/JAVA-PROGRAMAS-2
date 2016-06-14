@@ -49,5 +49,4 @@ public class OrdenarArray {
         	System.out.println(" [" + i + "] = " + cadena[i]);
         }
 	}
-	
 }
